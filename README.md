@@ -39,7 +39,7 @@ Este repositorio forma parte del marco docente de estructura de datos y algoritm
 Los estudiantes editan esta sección para agregar sus nombres, correos electrónicos de Uniandes y especificar qué funcionalidad de proyecto implementarán.
 
 1. Santiago Pinilla Perez, s.pinillap2@uniandes.edu.co , 202315246.
-2. Pau Suso Otoya, p.suso@uniandes.edu.co, 202421032.
+2. Pau Suso Otoya , p.suso@uniandes.edu.co, 202421032.
 3. Jose Daniel Largo Santanilla, j.largos@unaindes.edu.co, 202420549.
 
 [Volver al inicio](#laboratorio-1)

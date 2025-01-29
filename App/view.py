@@ -51,15 +51,11 @@ def new_logic():
 
 
 def print_menu():
-    """
-    Imprime el menú de opciones en consola para el usuario
-    """
     print("Opciones:")
     print("1- Cargar Libros")
     print("2- Cargar Tags")
     # TODO: Mods Lab 1, agregar la opcion 3.
-    # Agregue la opción 3 para cargar los tags de los libros.
-    # Pueede guiarse de las opciones 1 y 2.
+    print("3- Cargar Tags de los libros")
     print("0- Salir")
 
 
@@ -134,6 +130,11 @@ def main():
         # Esta función carga los tags de los libros en el catalogo.
         # Puede guiarse de las opciones 1 y 2.
         # Imprima el total de tags de los libros cargados.
+        elif int(inputs[0]) == 3:
+            print("Cargando información de tags de los libros....")
+            booksTags = load_books_tags(app)
+            print("Total de tags de los libros cargados: " + str(booksTags) + "\n")
+
         elif int(inputs[0]) == 3:
             pass
 
